@@ -28,19 +28,19 @@ public class MagentoLogin_DefaultProfile extends TestBase
     {
         
            pages.Magento_Login _Magento_Login = new pages.Magento_Login(getDriver());
-    TestModellerLogger.SetLastNodeGuid("4cb9d28e-bb2e-42bf-a8db-5da2e15de8cb");
+    TestModellerLogger.SetModellerContext("4cb9d28e-bb2e-42bf-a8db-5da2e15de8cb", 100011, 100150);
     _Magento_Login.GoToUrl();
 
-    TestModellerLogger.SetLastNodeGuid("87a8903f-c05a-4fd5-8727-8ed618613e7f");
+    TestModellerLogger.SetModellerContext("87a8903f-c05a-4fd5-8727-8ed618613e7f", 100011, 100152);
     _Magento_Login.Enter_Email("roni_cost@example.com");
 
-    TestModellerLogger.SetLastNodeGuid("7be9e260-ab8b-425a-a5c7-925d8e3831c8");
+    TestModellerLogger.SetModellerContext("7be9e260-ab8b-425a-a5c7-925d8e3831c8", 100011, 100153);
     _Magento_Login.Enter_Password("");
 
-    TestModellerLogger.SetLastNodeGuid("e896ea05-6a5e-48ef-9e31-884634aec8e5");
+    TestModellerLogger.SetModellerContext("e896ea05-6a5e-48ef-9e31-884634aec8e5", 100011, 100154);
     _Magento_Login.Click_Signin_Button();
 
-    TestModellerLogger.SetLastNodeGuid("d831462e-3b7b-45da-a313-df2610164d18");
+    TestModellerLogger.SetModellerContext("d831462e-3b7b-45da-a313-df2610164d18", 100011, 100156);
     _Magento_Login.Assert_Invalid_Password();
 
     }
@@ -52,16 +52,16 @@ public class MagentoLogin_DefaultProfile extends TestBase
     {
         
            pages.Magento_Login _Magento_Login = new pages.Magento_Login(getDriver());
-    TestModellerLogger.SetLastNodeGuid("4cb9d28e-bb2e-42bf-a8db-5da2e15de8cb");
+    TestModellerLogger.SetModellerContext("4cb9d28e-bb2e-42bf-a8db-5da2e15de8cb", 100011, 100150);
     _Magento_Login.GoToUrl();
 
-    TestModellerLogger.SetLastNodeGuid("87a8903f-c05a-4fd5-8727-8ed618613e7f");
+    TestModellerLogger.SetModellerContext("87a8903f-c05a-4fd5-8727-8ed618613e7f", 100011, 100152);
     _Magento_Login.Enter_Email("roni_cost@example.com");
 
-    TestModellerLogger.SetLastNodeGuid("19b53e77-d038-40b5-a198-7e5de93713e9");
+    TestModellerLogger.SetModellerContext("19b53e77-d038-40b5-a198-7e5de93713e9", 100011, 100153);
     _Magento_Login.Enter_Password("roni_cost3@example.com");
 
-    TestModellerLogger.SetLastNodeGuid("b710fe18-446c-46cc-8ad7-5b755ef053df");
+    TestModellerLogger.SetModellerContext("b710fe18-446c-46cc-8ad7-5b755ef053df", 100011, 100154);
     _Magento_Login.Click_Signin_Button();
 
     }
@@ -73,16 +73,16 @@ public class MagentoLogin_DefaultProfile extends TestBase
     {
         
            pages.Magento_Login _Magento_Login = new pages.Magento_Login(getDriver());
-    TestModellerLogger.SetLastNodeGuid("4cb9d28e-bb2e-42bf-a8db-5da2e15de8cb");
+    TestModellerLogger.SetModellerContext("4cb9d28e-bb2e-42bf-a8db-5da2e15de8cb", 100011, 100150);
     _Magento_Login.GoToUrl();
 
-    TestModellerLogger.SetLastNodeGuid("5c484bb6-14e6-4222-86a5-52fbf5d5b6ce");
+    TestModellerLogger.SetModellerContext("5c484bb6-14e6-4222-86a5-52fbf5d5b6ce", 100011, 100152);
     _Magento_Login.Enter_Email("invalidEmail");
 
-    TestModellerLogger.SetLastNodeGuid("a7842524-ad78-445e-840d-1b57d840b21d");
+    TestModellerLogger.SetModellerContext("a7842524-ad78-445e-840d-1b57d840b21d", 100011, 100154);
     _Magento_Login.Click_Signin_Button();
 
-    TestModellerLogger.SetLastNodeGuid("1e26dcaf-c9a6-4710-a987-613a227f6e5d");
+    TestModellerLogger.SetModellerContext("1e26dcaf-c9a6-4710-a987-613a227f6e5d", 100011, 100155);
     _Magento_Login.Assert_Invalid_Email();
 
     }
